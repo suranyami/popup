@@ -1,0 +1,33 @@
+%h1 Listing sites
+
+= gmaps4rails(@json)
+
+%table
+  %tr
+    %th Name
+    %th Lat
+    %th Long
+    %th Address
+    %th Starts
+    %th Ends
+    %th Description
+    %th
+    %th
+    %th
+
+  - @sites.each do |site|
+    %tr
+      %td= site.name
+      %td= site.lat
+      %td= site.long
+      %td= site.address
+      %td= site.starts
+      %td= site.ends
+      %td= site.description
+      %td= link_to 'Show', site
+      %td= link_to 'Edit', edit_site_path(site)
+      %td= link_to 'Destroy', site, :confirm => 'Are you sure?', :method => :delete
+
+%br
+
+= link_to 'New Site', new_site_path

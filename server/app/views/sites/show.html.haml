@@ -1,0 +1,27 @@
+%p#notice= notice
+
+%p
+  %b Name:
+  = @site.name
+%p
+  %b Lat:
+  = @site.lat
+%p
+  %b Long:
+  = @site.long
+%p
+  %b Address:
+  = @site.address
+%p
+  %b Starts:
+  = @site.starts
+%p
+  %b Ends:
+  = @site.ends
+%p
+  %b Description:
+  = @site.description
+
+= link_to 'Edit', edit_site_path(@site)
+\|
+= link_to 'Back', sites_path
