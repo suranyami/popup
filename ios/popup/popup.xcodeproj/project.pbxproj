@@ -35,6 +35,14 @@
 		1E847FBA154BF96800EF143D /* urbanoutfitters.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E847FB4154BF96800EF143D /* urbanoutfitters.jpg */; };
 		1E847FBC154BFF8200EF143D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E847FBB154BFF8200EF143D /* MapKit.framework */; };
 		1E847FC0154C11AD00EF143D /* logo_320x20.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E847FBF154C11AD00EF143D /* logo_320x20.png */; };
+		1EDD782E154CF76700369074 /* Facebook_icon_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EDD782C154CF76700369074 /* Facebook_icon_32.png */; };
+		1EDD782F154CF76700369074 /* twitter-icon_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EDD782D154CF76700369074 /* twitter-icon_32.png */; };
+		1EDD7831154CF8B700369074 /* Messages-icon-iPhone_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EDD7830154CF8B700369074 /* Messages-icon-iPhone_32.png */; };
+		1EDD7837154CFA3300369074 /* clock_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EDD7832154CFA3300369074 /* clock_grey.png */; };
+		1EDD7838154CFA3300369074 /* Favorites_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EDD7833154CFA3300369074 /* Favorites_grey.png */; };
+		1EDD7839154CFA3300369074 /* nearby_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EDD7834154CFA3300369074 /* nearby_grey.png */; };
+		1EDD783A154CFA3300369074 /* profile_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EDD7835154CFA3300369074 /* profile_grey.png */; };
+		1EDD783B154CFA3300369074 /* Recommended_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EDD7836154CFA3300369074 /* Recommended_grey.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,10 +79,6 @@
 		1E723C99154B6F8300D54C90 /* popupTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = popupTests.m; sourceTree = "<group>"; };
 		1E7A960B154B939300C4970E /* syd_fashion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = syd_fashion.jpg; sourceTree = "<group>"; };
 		1E7A9613154B939300C4970E /* park-bench-at-night.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "park-bench-at-night.jpg"; sourceTree = "<group>"; };
-		1E7A962B154BA92C00C4970E /* Favorites.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Favorites.jpg; sourceTree = "<group>"; };
-		1E7A962C154BA92C00C4970E /* places.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = places.jpg; sourceTree = "<group>"; };
-		1E7A962D154BA92C00C4970E /* Profile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Profile.jpg; sourceTree = "<group>"; };
-		1E7A962E154BA92C00C4970E /* Recommended.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Recommended.jpg; sourceTree = "<group>"; };
 		1E847FAA154BDBCC00EF143D /* cassette_montage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cassette_montage.jpg; sourceTree = "<group>"; };
 		1E847FAB154BDBCC00EF143D /* girl_splash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = girl_splash.jpg; sourceTree = "<group>"; };
 		1E847FAF154BF96800EF143D /* Asos sale.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Asos sale.jpg"; sourceTree = "<group>"; };
@@ -85,6 +89,14 @@
 		1E847FB4154BF96800EF143D /* urbanoutfitters.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = urbanoutfitters.jpg; sourceTree = "<group>"; };
 		1E847FBB154BFF8200EF143D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		1E847FBF154C11AD00EF143D /* logo_320x20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_320x20.png; sourceTree = "<group>"; };
+		1EDD782C154CF76700369074 /* Facebook_icon_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Facebook_icon_32.png; sourceTree = "<group>"; };
+		1EDD782D154CF76700369074 /* twitter-icon_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter-icon_32.png"; sourceTree = "<group>"; };
+		1EDD7830154CF8B700369074 /* Messages-icon-iPhone_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Messages-icon-iPhone_32.png"; sourceTree = "<group>"; };
+		1EDD7832154CFA3300369074 /* clock_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock_grey.png; sourceTree = "<group>"; };
+		1EDD7833154CFA3300369074 /* Favorites_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Favorites_grey.png; sourceTree = "<group>"; };
+		1EDD7834154CFA3300369074 /* nearby_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nearby_grey.png; sourceTree = "<group>"; };
+		1EDD7835154CFA3300369074 /* profile_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_grey.png; sourceTree = "<group>"; };
+		1EDD7836154CFA3300369074 /* Recommended_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Recommended_grey.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,10 +223,14 @@
 		1E7A962A154BA92000C4970E /* icons */ = {
 			isa = PBXGroup;
 			children = (
-				1E7A962B154BA92C00C4970E /* Favorites.jpg */,
-				1E7A962C154BA92C00C4970E /* places.jpg */,
-				1E7A962D154BA92C00C4970E /* Profile.jpg */,
-				1E7A962E154BA92C00C4970E /* Recommended.jpg */,
+				1EDD7832154CFA3300369074 /* clock_grey.png */,
+				1EDD7833154CFA3300369074 /* Favorites_grey.png */,
+				1EDD7834154CFA3300369074 /* nearby_grey.png */,
+				1EDD7835154CFA3300369074 /* profile_grey.png */,
+				1EDD7836154CFA3300369074 /* Recommended_grey.png */,
+				1EDD7830154CF8B700369074 /* Messages-icon-iPhone_32.png */,
+				1EDD782C154CF76700369074 /* Facebook_icon_32.png */,
+				1EDD782D154CF76700369074 /* twitter-icon_32.png */,
 			);
 			name = icons;
 			sourceTree = "<group>";
@@ -302,6 +318,14 @@
 				1E847FB9154BF96800EF143D /* tahlia.jpg in Resources */,
 				1E847FBA154BF96800EF143D /* urbanoutfitters.jpg in Resources */,
 				1E847FC0154C11AD00EF143D /* logo_320x20.png in Resources */,
+				1EDD782E154CF76700369074 /* Facebook_icon_32.png in Resources */,
+				1EDD782F154CF76700369074 /* twitter-icon_32.png in Resources */,
+				1EDD7831154CF8B700369074 /* Messages-icon-iPhone_32.png in Resources */,
+				1EDD7837154CFA3300369074 /* clock_grey.png in Resources */,
+				1EDD7838154CFA3300369074 /* Favorites_grey.png in Resources */,
+				1EDD7839154CFA3300369074 /* nearby_grey.png in Resources */,
+				1EDD783A154CFA3300369074 /* profile_grey.png in Resources */,
+				1EDD783B154CFA3300369074 /* Recommended_grey.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

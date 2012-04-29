@@ -1,5 +1,5 @@
 class Site
-  include Mongoid::Document
+  # include Mongoid::Document
   
   attr_accessible :address, :description, :ends, :latitude, :longitude, :name, :starts
   acts_as_gmappable
