@@ -16,7 +16,7 @@ Devise.setup do |config|
   # Load and configure the ORM. Supports :active_record (default) and
   # :mongoid (bson_ext recommended) by default. Other ORMs may be
   # available as additional gems.
-  require 'devise/orm/mongoid'
+  require 'devise/orm/active_record'
 
   # ==> Configuration for any authentication mechanism
   # Configure which keys are used when authenticating a user. The default is
@@ -85,27 +85,7 @@ Devise.setup do |config|
   config.stretches = Rails.env.test? ? 1 : 10
 
   # Setup a pepper to generate the encrypted password.
-  # config.pepper = "420c58e586abd4198ab0cd945618ddd0464cbdb0aef0f184c3296abc93d4bc07f8c934c7c4424b1299b70fad7f69731cc59fbc6a0b1751176325b25e016fee41"
-
-  # ==> Configuration for :invitable
-  # The period the generated invitation token is valid, after
-  # this period, the invited resource won't be able to accept the invitation.
-  # When invite_for is 0 (the default), the invitation won't expire.
-  # config.invite_for = 2.weeks
-  
-  # Number of invitations users can send.
-  # If invitation_limit is nil, users can send unlimited invitations.
-  # If invitation_limit is 0, users can't send invitations.
-  # If invitation_limit n > 0, users can send n invitations.
-  # Default: nil
-  # config.invitation_limit = 5
-  
-  # The key to be used to check existing users when sending an invitation
-  # config.invite_key = :email
-  
-  # Flag that force a record to be valid before being actually invited 
-  # Default: false
-  # config.validate_on_invite = true
+  # config.pepper = "27e3ac6c5ed83bdb32dd159922117a33deaec1b4561a24cbee24f9c2fdba512d3d49c59263d475f4589996dbba78924d0d59b980603559586d222e3ba245473d"
 
   # ==> Configuration for :confirmable
   # A period that the user is allowed to access the website even without

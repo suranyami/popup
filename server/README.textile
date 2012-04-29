@@ -1,19 +1,19 @@
-Server
-======
+h1. Server
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-More Information
-================
+h2. More Information
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-Required Gems
-=============
+h2. Required Gems
+
 This application requires this gem:
 
 * "rails":http://rubygems.org/gems/rails
 
-Dependencies
-================
+h2. Dependencies
+
 To use this application, you will need:
 
 * The Ruby language (version 1.8.7 or 1.9.2)

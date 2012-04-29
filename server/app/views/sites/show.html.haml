@@ -4,23 +4,26 @@
   %b Name:
   = @site.name
 %p
-  %b Lat:
-  = @site.lat
+  %b Latitude:
+  = @site.latitude
 %p
-  %b Long:
-  = @site.long
-%p
-  %b Address:
-  = @site.address
-%p
-  %b Starts:
-  = @site.starts
-%p
-  %b Ends:
-  = @site.ends
+  %b Longitude:
+  = @site.longitude
 %p
   %b Description:
   = @site.description
+%p
+  %b Starts at:
+  = @site.starts_at
+%p
+  %b Ends at:
+  = @site.ends_at
+%p
+  %b Timezone offset:
+  = @site.timezone_offset
+%p
+  %b Banner url:
+  = @site.banner_url
 
 = link_to 'Edit', edit_site_path(@site)
 \|

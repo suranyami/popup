@@ -1,16 +1,15 @@
 %h1 Listing sites
 
-= gmaps4rails(@json)
-
 %table
   %tr
     %th Name
-    %th Lat
-    %th Long
-    %th Address
-    %th Starts
-    %th Ends
+    %th Latitude
+    %th Longitude
     %th Description
+    %th Starts at
+    %th Ends at
+    %th Timezone offset
+    %th Banner url
     %th
     %th
     %th
@@ -18,12 +17,13 @@
   - @sites.each do |site|
     %tr
       %td= site.name
-      %td= site.lat
-      %td= site.long
-      %td= site.address
-      %td= site.starts
-      %td= site.ends
+      %td= site.latitude
+      %td= site.longitude
       %td= site.description
+      %td= site.starts_at
+      %td= site.ends_at
+      %td= site.timezone_offset
+      %td= site.banner_url
       %td= link_to 'Show', site
       %td= link_to 'Edit', edit_site_path(site)
       %td= link_to 'Destroy', site, :confirm => 'Are you sure?', :method => :delete

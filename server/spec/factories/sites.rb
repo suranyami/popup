@@ -3,11 +3,12 @@
 FactoryGirl.define do
   factory :site do
     name "MyString"
-    lat 1.5
-    long 1.5
-    address "MyText"
-    starts "2012-04-28 18:25:27"
-    ends "2012-04-28 18:25:27"
+    latitude 1.5
+    longitude 1.5
     description "MyText"
+    starts_at "2012-04-29 15:01:16"
+    ends_at "2012-04-29 15:01:16"
+    timezone_offset 1.5
+    banner_url "MyString"
   end
 end

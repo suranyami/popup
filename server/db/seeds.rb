@@ -10,5 +10,3 @@ user = User.create! :name => 'First User', :email => 'user@example.com', :passwo
 puts 'New user created: ' << user.name
 user2 = User.create! :name => 'Second User', :email => 'user2@example.com', :password => 'please', :password_confirmation => 'please', :confirmed_at => Time.now.utc
 puts 'New user created: ' << user2.name
-user.add_role :admin
-

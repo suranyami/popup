@@ -3,13 +3,13 @@
 
   .form-inputs
     = f.input :name
-    = f.input :lat
-    = f.input :long
-    = f.input :address
-    = f.input :starts
-    = f.input :ends
+    = f.input :latitude
+    = f.input :longitude
     = f.input :description
+    = f.input :starts_at
+    = f.input :ends_at
+    = f.input :timezone_offset
+    = f.input :banner_url
 
   .form-actions
     = f.button :submit
-

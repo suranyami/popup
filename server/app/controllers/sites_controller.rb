@@ -2,7 +2,6 @@ class SitesController < ApplicationController
   # GET /sites
   # GET /sites.json
   def index
-    @json = Site.all.to_gmaps4rails
     @sites = Site.all
 
     respond_to do |format|
