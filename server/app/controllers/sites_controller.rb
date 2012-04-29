@@ -2,6 +2,8 @@ class SitesController < ApplicationController
   # GET /sites
   # GET /sites.json
   def index
+    @markers = Site.all.to_gmaps4rails
+    @json = Site.all.to_gmaps4rails
     @sites = Site.all
 
     respond_to do |format|
@@ -13,6 +15,10 @@ class SitesController < ApplicationController
   # GET /sites/1
   # GET /sites/1.json
   def show
+    @markers = Site.all.to_gmaps4rails
+    @json = Site.all.to_gmaps4rails
+    @sites = Site.all
+    
     @site = Site.find(params[:id])
 
     respond_to do |format|
@@ -24,6 +30,9 @@ class SitesController < ApplicationController
   # GET /sites/new
   # GET /sites/new.json
   def new
+    @markers = Site.all.to_gmaps4rails
+    @json = Site.all.to_gmaps4rails
+    
     @site = Site.new
 
     respond_to do |format|
@@ -34,6 +43,10 @@ class SitesController < ApplicationController
 
   # GET /sites/1/edit
   def edit
+    @markers = Site.all.to_gmaps4rails
+    @json = Site.all.to_gmaps4rails
+    @sites = Site.all
+    
     @site = Site.find(params[:id])
   end
 

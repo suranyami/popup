@@ -2,9 +2,9 @@ Server::Application.routes.draw do
   resources :sites
 
   authenticated :user do
-    root :to => 'home#index'
+    root :to => 'sites#index'
   end
-  root :to => "home#index"
+  root :to => "sites#index"
   devise_for :users
   resources :users, :only => [:show, :index]
 end

@@ -36,7 +36,10 @@ class DeviseCreateUsers < ActiveRecord::Migration
       ## Token authenticatable
       # t.string :authentication_token
 
-
+      t.float :latitude, :default => 33.8683
+      t.float :longitude, :default => 151.2086
+      t.boolean :gmaps, :default => true
+      
       t.timestamps
     end
 

@@ -1,5 +1,7 @@
 = simple_form_for(@site) do |f|
   = f.error_notification
+  
+  = gmaps4rails(@json)
 
   .form-inputs
     = f.input :name
